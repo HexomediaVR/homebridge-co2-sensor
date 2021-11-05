@@ -1,0 +1,36 @@
+{
+  "pluginAlias": "CO2Sensor",
+  "pluginType": "accessory",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "required": true
+      },
+      "uart_path": {
+        "title": "Name",
+        "type": "string",
+        "required": true,
+        "default": "/dev/ttyS0",
+        "description": "Specify the UART to which MH-Z19 is connected in ttyXXX format."
+      },
+      "schedule": {
+        "title": "Schedule",
+        "type": "string",
+        "required": true,
+        "default": "*/5 * * * *",
+        "description": "Specify the acquisition interval of CO2 concentration."
+      },
+      "warning_level": {
+        "title": "Warning Level",
+        "type": "number",
+        "required": true,
+        "default": 1500,
+        "description": "A warning will be displayed when CO2 exceeds this level."
+      }
+    }
+  }
+}

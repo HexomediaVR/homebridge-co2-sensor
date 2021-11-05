@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-co2-sensor",
-  "displayName": "Homebridge CO2 Sensor",
-  "version": "0.2.2",
+  "name": "homebridge-co2-sensor-v2",
+  "displayName": "Homebridge CO2 Sensor v2",
+  "version": "2.0.0",
   "main": "index.js",
   "scripts": {
     "lint": "echo \"Warning: lint is not used\" && exit 0",
@@ -26,13 +26,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mizuka-ninomae/homebridge-co2-sensor.git"
+    "url": "git://github.com/HexomediaVR/homebridge-co2-sensor.git"
   },
-  "author": "mizuka-ninomae",
+  "author": "HexomediaVR",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mizuka-ninomae/homebridge-co2-sensor/issues"
+    "url": "https://github.com/HexomediaVR/homebridge-co2-sensor/issues"
   },
-  "homepage": "https://github.com/mizuka-ninomae/homebridge-co2-sensor#readme",
-  "description": "<p align=\"center\">\r   <img src=\"img/mhz19c_omote.png\" width=\"300\">\r </p>"
+  "homepage": "https://github.com/HexomediaVR/homebridge-co2-sensor#readme",
+  "description": "<p align=\"center\">\r   <img src=\"img/mhz19c.png\" width=\"300\">\r </p>"
 }
