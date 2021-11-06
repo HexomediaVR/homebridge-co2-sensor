@@ -5,7 +5,7 @@ const MH_Z19      = require('mh_z19');
 module.exports = function(homebridge){
   Service         = homebridge.hap.Service;
   Characteristic  = homebridge.hap.Characteristic;
-  homebridge.registerAccessory("homebridge-co2-sensor", "CO2Sensor", CO2SensorAccessory);
+  homebridge.registerAccessory("homebridge-co2-sensor-v2", "CO2Sensor", CO2SensorAccessory);
 }
 
 function CO2SensorAccessory(log, config) {
