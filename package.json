@@ -26,13 +26,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/HexomediaVR/homebridge-co2-sensor.git"
+    "url": "git://github.com/marcantoinegodde/homebridge-co2-sensor.git"
   },
-  "author": "HexomediaVR",
+  "author": "Marc-Antoine Godde",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HexomediaVR/homebridge-co2-sensor/issues"
+    "url": "https://github.com/marcantoinegodde/homebridge-co2-sensor/issues"
   },
-  "homepage": "https://github.com/HexomediaVR/homebridge-co2-sensor#readme",
+  "homepage": "https://github.com/marcantoinegodde/homebridge-co2-sensor#readme",
   "description": "<p align=\"center\">\r   <img src=\"img/mhz19c.png\" width=\"300\">\r </p>"
 }
